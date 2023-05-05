@@ -10,7 +10,7 @@ This is a small container to do a port-forwarding behind a reverse proxy.
 Copy the `authorized_keys` file into the current Docker build folder.
 
 ```bash
-cp $HOME/.ssh/id_rsa.pun authorized_keys
+cp $HOME/.ssh/id_rsa.pub authorized_keys
 ```
 
 Define the user to create and the path to the authorized_keys file when
